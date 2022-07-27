@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:oceanografia_lagoa/ui/pages/home_page/home_page.dart';
+import 'package:oceanografia_lagoa/ui/pages/splashscreen_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const HomePage(),
+      home: const SplashscreenPage(),
     );
   }
 }
