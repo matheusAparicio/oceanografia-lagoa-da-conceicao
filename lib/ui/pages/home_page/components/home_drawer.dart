@@ -82,7 +82,7 @@ class _HomeDrawerState extends State<HomeDrawer> {
                 ),
                 const SizedBox(width: 10),
                 Text(
-                  "Sair do aplicativo",
+                  "Fechar aplicativo",
                   style: GoogleFonts.roboto(
                     color: AppColors().redColor,
                     decoration: TextDecoration.none,
