@@ -1,5 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.oceanografia_lagoa">
+    <uses-permission android:name="android.permission.INTERNET" />
    <application
         android:label="oceanografia_lagoa"
         android:name="${applicationName}"
